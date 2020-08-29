@@ -141,6 +141,7 @@ class action_plugin_datatables extends DokuWiki_Action_Plugin
         $dt_scripts[] = "$base_url/datatables.net-buttons/js/dataTables.buttons.min.js";
         $dt_scripts[] = "$base_url/datatables.net-buttons/js/buttons.html5.min.js";
         $dt_scripts[] = "$base_url/datatables.net-buttons/js/buttons.print.min.js";
+        $dt_scripts[] = "$base_url/datatables.net-buttons/js/buttons.colVis.min.js";
 
         $dt_scripts[] = "$base_url/jszip/dist/jszip.min.js";
         $dt_scripts[] = "$base_url/pdfmake/build/pdfmake.min.js";
